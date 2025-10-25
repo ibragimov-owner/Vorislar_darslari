@@ -60,6 +60,11 @@ print(country)
 print(davlatlar)
 print(country)
 
+toqson = list(range(1, 20, 2))
+print("asl ko'rinishi:", toqson)
+print("1 dan 7 gacha :", toqson[0:4])
+print(toqson [:])
+
 
 
 
