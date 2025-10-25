@@ -44,7 +44,7 @@
 # sonlar6 = sum((30, 0, 3, 15, 7, 22, 19))
 # print(sonlar6)
 
-from calendar import c
+
 
 
 davlatlar = ["Ozbekiston", "AQSH", "Rossiya", "Xitoy", "Turkiya"]
