@@ -51,7 +51,7 @@ friends.append("Baxtiyor")
 print("Mehmonlar ro‘yxati:", friends)
 
 # Mehmon bo‘la olmaydigan odamni o‘chiramiz
-friends.remove("Soli")
+friends.remove("Umid")
 print("Yangilangan mehmonlar:", friends)
 
 # Ro‘yxatning boshiga, o‘rtasiga va oxiriga yangi mehmon qo‘shamiz
