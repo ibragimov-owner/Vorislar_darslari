@@ -1,3 +1,7 @@
+# Tezlik (typing) test — nechchi so‘z/min?
+
+# Oddiy terminalga yozish tezligini o‘lchaydi.
+
 import time, random
 
 matnlar = [
