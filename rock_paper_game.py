@@ -1,3 +1,6 @@
+# Rock-Paper-Scissors-Lizard-Spock (kompyuter bilan)
+# ddiy strategiya + balldor tizim.
+
 import random
 
 opts = ["rock","paper","scissors","lizard","spock"]
