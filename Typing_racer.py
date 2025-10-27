@@ -2,7 +2,10 @@
 
 # AI har doim bir necha xarakter kutish bilan "yozadi" → stress va qiziqarli!
 
+# AI ga qaraganda ko'proq vaqt kutib so'ngra tugating va g'alaba qozoning
+
 import time, random
+
 
 text = "python pro is coding speed"
 print("Type this:", text)
