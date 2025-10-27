@@ -1,7 +1,14 @@
+# Mini quiz dasturi JSON formatida saqlangan savollar bilan ishlaydi.
+
+# Mini Quiz (JSON bilan) — fayldan savollar o‘qib, hisoblaydi.
+
+# Istalgan savol qo‘shiladi.
+
+
 import json
 
 data = [
-    {"q":"O‘zbekiston poytaxti?","a":"tashkent"},
+    {"q":"O‘zbekiston poytaxti?","a":"toshkent"},
     {"q":"2+2 = ?","a":"4"}
 ]
 # agar fayl ishlatmoqchi bo'lsang: json.dump(data, open("q.json","w"))
