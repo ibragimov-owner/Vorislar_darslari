@@ -2,12 +2,13 @@
 
 # AI har doim bir necha xarakter kutish bilan "yozadi" → stress va qiziqarli!
 
-# AI ga qaraganda ko'proq vaqt kutib so'ngra tugating va g'alaba qozoning
+# AI ga qaraganda ko'proq vaqt kutib so'ngra tugating va g'alaba qozoning!
+
 
 import time, random
 
 
-text = "python pro is coding speed"
+text = "python pro is coding speed typing game"
 print("Type this:", text)
 input("Boshlash uchun Enter...")
 start = time.time()
@@ -22,3 +23,5 @@ if player_time < ai_time:
     print("You beat the AI! 🏆")
 else:
     print("AI won this time 😅")
+
+# O'yin tugadi
