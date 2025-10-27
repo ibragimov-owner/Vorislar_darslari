@@ -1,3 +1,7 @@
+# Pygame: Simple Snake — boshlang‘ich to‘liq o‘yin (oshirish oson)
+
+# Pygame o‘rnatilgan bo‘lishi kerak (pip install pygame). Kichik, ishlaydigan Snake
+
 # pip install pygame
 import pygame, sys, random
 pygame.init()
