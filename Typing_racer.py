@@ -1,3 +1,7 @@
+# Typing-racer: Oddiy AI ga qarshi — soddalashtirilgan
+
+# AI har doim bir necha xarakter kutish bilan "yozadi" → stress va qiziqarli!
+
 import time, random
 
 text = "python pro is coding speed"
