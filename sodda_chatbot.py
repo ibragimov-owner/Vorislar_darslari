@@ -9,7 +9,7 @@ while True:
         print("Bot: Zo‘r! Men ham yaxshi man 😎")
     elif "isming" in savol:
         print("Bot: Meni PyBot deb atashadi!")
-    elif "chiq" in savol or "xayr" in savol:
+    elif "exit" in savol or "xayr" in savol:
         print("Bot: Xayr! 😊")
         break
     else:

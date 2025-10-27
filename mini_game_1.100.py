@@ -3,7 +3,7 @@
 import random
 
 print("Men 1 dan 100 gacha bo'lgan son o'yladim. Topishga harakat qil!")
-son = random.randint(1, 100)
+son = random.randint(1, 10)
 taxminlar = 0
 
 while True:
