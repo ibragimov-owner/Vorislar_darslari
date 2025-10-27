@@ -1,3 +1,5 @@
+# Mini O‘yin – “Son topish”
+# Foydalanuvchi kompyuter o‘ylagan sonni topadi.
 import random
 
 print("Men 1 dan 100 gacha bo'lgan son o'yladim. Topishga harakat qil!")
