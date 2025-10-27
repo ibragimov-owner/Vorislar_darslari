@@ -1,5 +1,7 @@
 # Pomodoro timer (Tkinter) — ishlash/ta’til sikli
 
+# omodoro texnikasi, bu kod 25 daqiqalik ishlash va 5 daqiqalik ta’til uchun oddiy timer yaratadi.
+
 # Mini GUI bilan fokus tizimi.
 
 import tkinter as tk
