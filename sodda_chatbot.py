@@ -1,3 +1,5 @@
+# Sun’iy intellektli chatbot (sodda versiya) 
+# Bu bot oddiy savollarga javob beradi.
 
 while True:
     savol = input("Siz: ").lower()
