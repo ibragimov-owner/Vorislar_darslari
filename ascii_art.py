@@ -18,4 +18,4 @@ def img_to_ascii(path, width=80):
         out += "\n"
     return out
 
-print(img_to_ascii("phyton.jpg", width=80)) # shu code saqlangan joyda phyton degan rasm bo'lishi zarur
+print(img_to_ascii("phyton.jpg", width=80)) # shu code saqlangan joyda phyton rasm bo'lishi zarur
