@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors-Lizard-Spock (kompyuter bilan)
-# ddiy strategiya + balldor tizim.
+# oddiy strategiya + balldor tizim.
 
 import random
 
