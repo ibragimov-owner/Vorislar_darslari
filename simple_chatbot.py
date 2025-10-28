@@ -26,11 +26,11 @@ javoblar = {
     "xayr": ["Xayr!", "Ko‘rishguncha!", "Salomat bo‘ling!"]
 }
 
-print("ChatBot: Salom! Suhbatni boshlaymiz (chiqish uchun 'chiq' yozing).")
+print("ChatBot: Salom! Suhbatni boshlaymiz (chiqish uchun 'exit yoki chiq ' yozing).")
 
 while True:
     user = input("Siz: ").lower()
-    if user == "chiq":
+    if user == "exit" or user == "chiq":
         print("ChatBot: Xayr!")
         break
     javob = None
