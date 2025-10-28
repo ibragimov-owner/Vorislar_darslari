@@ -1,10 +1,27 @@
-# simple_chatbot.py
+"""
+28.10.2025
+
+simple_chatbot.py
+
+bu sodda matn asosidagi chatbot dasturi
+
+foydalanuvchi bilan oddiy suhbatlashadi
+
+turli savollarga javob beradi
+
+javoblar lug'atida saqlanadi
+
+tasodifiy javob tanlash uchun random kutubxonasi ishlatiladi
+
+dastur foydalanuvchi "chiq" deb yozganda to'xtaydi
+"""
+
 import random
 
 javoblar = {
     "salom": ["Salom!", "Assalomu alaykum!", "Salom, yaxshimisiz?"],
     "qandaysan": ["Zo‘rman, sizchi?", "Yaxshi, rahmat!", "Har doimgidek ajoyib!"],
-    "isming": ["Meni ChatBot deb atashadi.", "Ismim PythonBot."],
+    "isming": ["Meni SimpleChatBot deb atashadi.", "Ismim Simple chat Bot."],
     "nima qilayapsan": ["Siz bilan suhbatlashyapman.", "Kod yozayapman 😊"],
     "xayr": ["Xayr!", "Ko‘rishguncha!", "Salomat bo‘ling!"]
 }
