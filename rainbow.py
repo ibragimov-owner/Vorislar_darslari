@@ -1,6 +1,8 @@
 # Rainbow ASCII loader (terminalda slow animatsiya) — oddiy va ko‘zga yoqadi.
 
 # rainbow_loader.py
+
+# Kod quyidagicha:
 import sys, time, itertools
 
 frames = ['⠋','⠙','⠹','⠸','⠼','⠴','⠦','⠧','⠇','⠏']
