@@ -47,4 +47,4 @@ while True:
         pygame.draw.rect(s, (0,255,0), (*seg, cell, cell))
     pygame.draw.rect(s, (255,0,0), (*food, cell, cell))
     pygame.display.flip()
-    clock.tick(8)
+    clock.tick(8) # O'yin tezligini sozlash
