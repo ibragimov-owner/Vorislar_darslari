@@ -9,7 +9,9 @@ Ishlatish uchun terminal oynasini oching va quyidagi buyruqni bajarish orqali sk
 
 python matrix_rain.py
 
-Dastur terminal oynasining kengligini aniqlaydi va har bir qator uchun tasodifiy "0" va "1" belgilaridan iborat satrlarni yaratadi. Har bir yangi qator ekranda pastga siljiydi, bu esa kod yomg'irining vizual effektini yaratadi.
+Dastur terminal oynasining kengligini aniqlaydi va har bir qator uchun tasodifiy "0" va "1" belgilaridan iborat satrlarni yaratadi.
+
+ Har bir yangi qator ekranda pastga siljiydi, bu esa kod yomg'irining vizual effektini yaratadi.
 """
 import random, os, time
 cols = os.get_terminal_size().columns
