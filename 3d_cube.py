@@ -1,4 +1,14 @@
+"""
+28.10.2025
+3d_cube.py — Terminalda aylanadigan 3D kub (ASCII)
 
+3d_cube.py
+
+Bu skript terminalda aylanadigan 3D kubni ASCII san'atida chizadi.
+
+Ishlatish:
+      python3 3d_cube.py
+"""
 import math, os, time
 
 A = B = 0
