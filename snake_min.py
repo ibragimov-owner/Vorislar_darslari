@@ -1,20 +1,4 @@
-"""
-28.10.2025
 
-snake_min.py — Pygame yordamida juda oddiy "Snake" (minimal)
-
-snake_min.py
-
-Oddiy "Snake" o'yinining minimal versiyasi Pygame kutubxonasi yordamida amalga oshirilgan.
-
-O'yin oynasi 400x400 piksel o'lchamda bo'lib, har bir segment 20x20 piksel o'lchamda.
-
-O'yinchi o'q tugmalari yordamida ilonni boshqaradi. Ilon o'z tanasiga yoki devorlarga urilganda o'yin tugaydi.
-
-Ilon ovqatni yeganida, u o'sadi va yangi ovqat tasodifiy joyda paydo bo'ladi.
-
-Iltimos, Pygame kutubxonasi o'rnatilganligiga ishonch hosil qiling: pip install pygame
-"""
 import pygame, random, sys
 pygame.init()
 W, H = 400, 400
