@@ -4,6 +4,14 @@
 
 # Mini GUI bilan fokus tizimi.
 
+# Tkinter kutubxonasidan foydalaniladi.
+
+# Har bir daqiqani hisoblash uchun threading va time kutubxonalaridan foydalaniladi.
+
+# pomodoro_timer.py
+
+# Kod quyidagicha:
+
 import tkinter as tk
 import time, threading
 
