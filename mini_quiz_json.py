@@ -9,7 +9,12 @@ import json
 
 data = [
     {"q":"O‘zbekiston poytaxti?","a":"toshkent"},
-    {"q":"2+2 = ?","a":"4"}
+    {"q":"2+2 = ?","a":"4"},
+    {"q":"Python dasturlash tili kim tomonidan yaratilgan?","a":"guidovan rossum"},
+    {"q":"Dunyoning eng baland cho'qqisi?","a":"everest"},
+    {"q":"Olimpiada o'yinlari nechanchi yilda boshlangan?","a":"1896"},
+    {"q":"Inson tanasidagi eng katta organ?","a":"teri"},
+    {"q":"Yer qaysi sayyra atrofida aylanadi?","a":"quyosh"},
 ]
 # agar fayl ishlatmoqchi bo'lsang: json.dump(data, open("q.json","w"))
 
