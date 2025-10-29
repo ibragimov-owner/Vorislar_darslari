@@ -1,4 +1,5 @@
 import math
+# 1. Foydalanuvchidan ismini so'rab, unga salom beruvchi dastur yozing.
 
    
 # ism = input("ismingiz nima? :")
@@ -10,10 +11,6 @@ import math
 
 # son = int(input("ixtiyoriy son kiriting: "))
 # print(f"{son} ning kvadrati {son**2} ga teng")
-
-
-
-
 
 # 8. Ikkita son a va b berilgan. Ularning o'rta arifmetigi aniqlansin. (a+b)/2
 a = int(input("a="))
