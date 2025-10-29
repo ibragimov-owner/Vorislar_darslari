@@ -1,6 +1,14 @@
-# Bugundan Python bilan ishlaymiz
-# Print() konsolga ma'lumot chiqarish buyrug'i 
-
+"""
+27.10.2025
+Bugundan Python bilan ishlaymiz
+Print() konsolga ma'lumot chiqarish buyrug'i 
+Matnlarni chiqarish uchun qo'shtirnoq yoki uch qo'shtirnoq ishlatiladi
+Matnlar - string (str) deb ataladi
+Matnlar ichida sonlar bo'lishi mumkin, lekin ular matn hisoblanadi 
+Matnlar bilan arifmetik amallar bajarilmaydi
+Matnlarni birlashtirish mumkin
+Matnlarni ko'paytirish mumkin
+"""
 print("Hello,world")
 print('salom dunyo')
 print("""bu nima deganii""")
