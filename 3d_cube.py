@@ -1,5 +1,6 @@
 """
 28.10.2025
+
 3d_cube.py — Terminalda aylanadigan 3D kub (ASCII)
 
 3d_cube.py
@@ -8,6 +9,12 @@ Bu skript terminalda aylanadigan 3D kubni ASCII san'atida chizadi.
 
 Ishlatish:
       python3 3d_cube.py
+Qoidalari:
+- Terminal o'lchamini 80x24 ga sozlang.
+- Skriptni to'xtatish uchun Ctrl+C tugmalarini bosing.
+
+
+
 """
 import math, os, time
 
@@ -30,7 +37,7 @@ while True:
             if 0 <= o < 1760 and D > z[o]:
                 z[o] = D
                 b[o] = [int(12 * (c * h * e - f * g))]
-    print(''.join(b))
+    print((b))
     A += 0.04
     B += 0.08
     time.sleep(0.03)
