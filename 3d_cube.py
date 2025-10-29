@@ -29,7 +29,7 @@ while True:
             o = int(x + 80 * y)
             if 0 <= o < 1760 and D > z[o]:
                 z[o] = D
-                b[o] = ".,-~:;=!*#$@"[int(12 * (c * h * e - f * g))]
+                b[o] = [int(12 * (c * h * e - f * g))]
     print(''.join(b))
     A += 0.04
     B += 0.08
