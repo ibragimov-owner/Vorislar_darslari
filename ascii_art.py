@@ -1,8 +1,16 @@
-# ASCII Art — rasmni terminalga ASCIIga aylantirish (Pillow kerak)
+"""
+27.10.2025
 
-# Rasmni ASCII bilan ko‘rsatadi — fun.
+ASCII Art — rasmni terminalga ASCIIga aylantirish (Pillow kerak)
 
-# pip install pillow
+Rasmni ASCII bilan ko‘rsatadi — fun.
+
+pip install pillow
+
+Qoidalar:
+1. Foydalanuvchi rasm faylini tanlaydi.
+2. Dastur rasmni ASCII san'atiga aylantiradi va terminalga chiqaradi.
+"""
 from PIL import Image
 
 def img_to_ascii(path, width=80):
