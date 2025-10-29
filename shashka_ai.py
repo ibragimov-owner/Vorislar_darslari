@@ -54,7 +54,6 @@ def draw_board(win, board):
 def in_bounds(r, c):
     return 0 <= r < ROWS and 0 <= c < COLS
 
-# ✅ TO‘G‘RILANGAN FUNKSIYA — AI xatosiz ishlaydi
 def get_piece_moves(board, r, c):
     piece = board[r][c]
     if not piece:
@@ -241,5 +240,8 @@ def main():
                         selected = (r, c)
 
 main()
+
+
+# pygame.quit()
   
   
