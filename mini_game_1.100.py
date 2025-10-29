@@ -1,5 +1,18 @@
-# Mini O‘yin – “Son topish”
-# Foydalanuvchi kompyuter o‘ylagan sonni topadi.
+"""
+27.10.2025
+
+Mini O‘yin – “Son topish”
+Foydalanuvchi kompyuter o‘ylagan sonni topadi.
+
+Qoidalar:
+1. Kompyuter 1 dan 10 gacha bo‘lgan son o‘ylaydi.
+2. Foydalanuvchi taxmin kiritadi.
+3. Agar foydalanuvchi kiritgan son kompyuter o‘ylagan sondan kichik bo‘lsa, 
+   kompyuter “Kichik son aytding, yana urinib ko‘r!” deb javob beradi.
+4. Agar foydalanuvchi kiritgan son katta bo‘lsa,
+   kompyuter “Katta son aytding, yana urin!” deb javob beradi.
+   5. Foydalanuvchi to‘g‘ri sonni topganda, kompyuter “To‘g‘ri! 🎉 Siz {taxminlar} urinishda topding!” deb javob beradi.
+"""
 import random
 
 print("Men 1 dan 100 gacha bo'lgan son o'yladim. Topishga harakat qil!")
