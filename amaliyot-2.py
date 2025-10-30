@@ -88,3 +88,4 @@ print("Taomlar ro'yxati:", taomlar)
 
 
 
+
