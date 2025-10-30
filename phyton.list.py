@@ -81,7 +81,7 @@ o_familyalar = list(familyalar)  # tuple ni oddiy(list) ro'yxatga aylantirish
 print(o_familyalar) 
 
 o_familyalar = tuple(o_familyalar)  # ro'yxatni yana tuple ga aylantirish
-
+print(o_familyalar)
 
 
 
