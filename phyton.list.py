@@ -65,6 +65,20 @@ print("asl ko'rinishi:", toqson)
 print("1 dan 7 gacha :", toqson[0:4])
 print(toqson [:])
 
+# tuple o'zgarmas ro'yxat
+ismlar = ["ali", "vali"]  # oddiy  ro'yxat
+familyalar = ("kamol, umid, elbek, akbar")   # o'zgarmas ro'yxat
+print("oddiy ro'yxat : ", ismlar)
+print("o'zgarmas ro'yxat(tuple) : ", familyalar)
+
+familyalar.append("akbar")  # xato beradi, chunki tuple o'zgarmas ro'yxat
+print(familyalar)
+
+ismlar.append("akbar")  # to'g'ri ishlaydi, chunki oddiy ro'yxat
+
+
+
+
 
 
 
