@@ -71,12 +71,15 @@ familyalar = ("kamol, umid, elbek, akbar")   # o'zgarmas ro'yxat
 print("oddiy ro'yxat : ", ismlar)
 print("o'zgarmas ro'yxat(tuple) : ", familyalar)
 
-familyalar.append("akbar")  # xato beradi, chunki tuple o'zgarmas ro'yxat
-print(familyalar)
+# familyalar.append("akbar")  # xato beradi, chunki tuple o'zgarmas ro'yxat
+# print(familyalar)
 
 ismlar.append("akbar")  # to'g'ri ishlaydi, chunki oddiy ro'yxat
 
+o_familyalar = list(familyalar)  # tuple ni oddiy(list) ro'yxatga aylantirish
+print(o_familyalar) 
 
+o_familyalar = tuple(o_familyalar)  # ro'yxatni yana tuple ga aylantirish
 
 
 
