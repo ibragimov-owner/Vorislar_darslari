@@ -68,7 +68,7 @@ print(toqson [:])
 
 # tuple o'zgarmas ro'yxat
 ismlar = ["ali", "vali"]  # oddiy  ro'yxat
-familyalar = ("kamol", "umid","elbek", "akbar")   # o'zgarmas ro'yxat
+familyalar = ("kamol", "umid", "elbek")   # o'zgarmas ro'yxat
 print("oddiy ro'yxat : ", ismlar)
 print("o'zgarmas ro'yxat(tuple) : ", familyalar)
 
