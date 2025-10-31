@@ -41,3 +41,8 @@ while True:
     if not javob:
         javob = random.choice(["Hmm...", "Tushunmadim 🤔", "Qiziq fikr!"])
     print("ChatBot:", javob)
+
+
+
+
+    
