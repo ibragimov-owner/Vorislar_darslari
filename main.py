@@ -1,3 +1,9 @@
+"""
+25.10.2025
+Bu har xil parolni buzish usullarini sinab ko'rish uchun qulay interfeysni taqdim etadi.
+
+"""
+
 import tkinter as tk
 from tkinter import ttk, messagebox
 import itertools
