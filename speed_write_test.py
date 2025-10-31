@@ -1,7 +1,10 @@
-# Tezlik (typing) test — nechchi so‘z/min?
+"""
+25.10.2025
 
-# Oddiy terminalga yozish tezligini o‘lchaydi.
+Tezlik (typing) test — nechchi so‘z/min?
 
+Oddiy terminalga yozish tezligini o‘lchaydi.
+"""
 import time, random
 
 matnlar = [
