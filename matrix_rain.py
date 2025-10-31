@@ -14,6 +14,7 @@ Dastur terminal oynasining kengligini aniqlaydi va har bir qator uchun tasodifiy
 Har bir yangi qator ekranda pastga siljiydi, bu esa kod yomg'irining vizual effektini yaratadi.
 """
 
+
 import random, os, time
 
 # Terminal kengligini aniqlaymiz
