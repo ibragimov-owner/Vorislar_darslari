@@ -14,6 +14,7 @@
 · Ro'yxatdagi elementlar sonini hisoblang
 · Ro'yxatning boshidan, o'rtasidan va oxiridan 20 ta qiymatni konsolga chiqaring
 · taomlar degan ro'yxat yarating va ichiga istalgan 5ta taomni kiriting
+
 """
 
 # Davlatlar ro'yxatini yaratamiz
@@ -81,6 +82,7 @@ taomlar = ["osh", "shashlik", "manti", "lag'mon", "somsa"]
 
 # Taomlar ro'yxatini ekranga chiqaramiz
 print("Taomlar ro'yxati:", taomlar)
+
 
 
 
