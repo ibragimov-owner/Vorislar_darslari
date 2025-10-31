@@ -1,3 +1,10 @@
+"""
+28.10.2025
+calculator - bu zamonaviy ko'rinishga ega kalkulyator dasturidir.
+Bu har xil arifmetik amallarni bajarish uchun qulay interfeysni taqdim etadi.
+Ishlatish uchun quyidagi buyruqni bajarish orqali skriptni ishga tushiring:
+"""
+
 import tkinter as tk
 from tkinter import font
 
