@@ -1,3 +1,10 @@
+"""
+25.10.2025
+Bu shashka o'yini bo'lib, unda o'yinchi inson sifatida qizil bo'laklarni boshqaradi va ko'k bo'laklarni sun'iy intellekt boshqaradi.
+O'yin Pygame kutubxonasi yordamida yaratilgan va minimaks algoritmi orqali AI qarorini qabul qiladi.
+"""
+
+
 import pygame
 import copy
 import math
