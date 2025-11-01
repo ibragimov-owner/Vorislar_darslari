@@ -32,6 +32,8 @@ for ism in oquvchilar:
 # print(f"assalomu alaykum xurmatli {oquvchilar[3]} ishlar qanday?")
 # print(f"assalomu alaykum xurmatli {oquvchilar[4]} ishlar qanday?")
 
-
+raqamlar = list((1, 2, 3, 4, 5, -8, 13, 21, 34, 55, 89))
+for raqam in raqamlar:
+    print(f"{raqam} ning kvadrati {raqam**2} ga teng")
 
 
