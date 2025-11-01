@@ -38,12 +38,23 @@ for ism in oquvchilar:
 #    print(f"{raqam} ning kubi {raqam**3} ga teng")
 
 
-raqamlar = list(range(30, 91,))
+# raqamlar = list(range(30, 91,))
+# for raqam in raqamlar:
+#     print(f"{raqam}  sonini toqqqizga bolganda {raqam / 9} ga teng")
+
+
+
+raqamlar = list(range(27, 54, 7))
 for raqam in raqamlar:
-    print(f"{raqam}  sonini toqqqizga bolganda {raqam / 9} ga teng")
+    print(f"{raqam}  tortinchi darajasi {raqam **4} ga teng")
+    
 
+natija = [f"{raqam} tortinchi darajasi {raqam ** 4} ga teng" for raqam in raqamlar]
 
+print("\nRo‘yxat ko‘rinishida:")
+print(natija)
 
+    
 
 
 
