@@ -29,3 +29,5 @@ while True:
     line = "".join(random.choice(chars) for _ in range(cols))
     print(GREEN + line + RESET)
     time.sleep(0.05)
+
+# Dastur tugatish uchun Ctrl+C tugmalarini bosing
