@@ -1,8 +1,12 @@
-"""Mini quiz dasturi JSON formatida saqlangan savollar bilan ishlaydi.
+"""
+25.10.2025
+
+Mini quiz dasturi JSON formatida saqlangan savollar bilan ishlaydi.
 
 Mini Quiz (JSON bilan) — fayldan savollar o‘qib, hisoblaydi.
 
-Istalgan savol qo‘shiladi."""
+Istalgan savol qo‘shiladi.
+"""
 
 
 import json
