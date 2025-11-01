@@ -32,8 +32,19 @@ for ism in oquvchilar:
 # print(f"assalomu alaykum xurmatli {oquvchilar[3]} ishlar qanday?")
 # print(f"assalomu alaykum xurmatli {oquvchilar[4]} ishlar qanday?")
 
-raqamlar = list((1, 2, 3, 4, 5, -8, 13, 21, 34, 55, 89))
+# raqamlar = list((1, 2, 3, 4, 5, -8, 13, 21, 34, 55, 89, 69))
+# for raqam in raqamlar:
+#    print(f"{raqam} ning kvadrati {raqam**2} ga teng")
+#    print(f"{raqam} ning kubi {raqam**3} ga teng")
+
+
+raqamlar = list(range(30, 91,))
 for raqam in raqamlar:
-    print(f"{raqam} ning kvadrati {raqam**2} ga teng")
+    print(f"{raqam}  sonini toqqqizga bolganda {raqam / 9} ga teng")
+
+
+
+
+
 
 
