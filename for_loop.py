@@ -17,11 +17,11 @@ Natijada, quyidagi chiqish hosil bo'ladi:
 for loop yordamida ro'yxatlar, lug'atlar va boshqa ma'lumot tuzilmalaridagi elementlar ustida ham ishlash mumkin.
 """
 
-oquvchilar = ["Ali", "Vali", "Gulbahor", "Doston", "Madina"]
+# oquvchilar = ["Ali", "Vali", "Gulbahor", "Doston", "Madina"]
 
-for ism in oquvchilar:
-    print(f"assalomu alaykum xurmatli {ism.title} ishlar qanday?")  
-    print(f"Yaxshi kun tilayman xurmatli {ism.title()} ")
+# for ism in oquvchilar:
+#     print(f"assalomu alaykum xurmatli {ism.title} ishlar qanday?")  
+#     print(f"Yaxshi kun tilayman xurmatli {ism.title()} ")
 
 # Bu kod for loop yordamida oquvchilar ro'yxatidagi har bir o'quvchi uchun salomlashish xabarini chiqaradi.
      
@@ -44,17 +44,24 @@ for ism in oquvchilar:
 
 
 
+# raqamlar = list(range(27, 54, 7))
+# for raqam in raqamlar:
+#     print(f"{raqam}  tortinchi darajasi {raqam **4} ga teng")
+    
+
+# natija = [f"{raqam} tortinchi darajasi {raqam ** 4} ga teng" for raqam in raqamlar]
+
+# print("\nRo‘yxat ko‘rinishida:")
+# print(natija)
+
+    
 raqamlar = list(range(27, 54, 7))
+natija = []
+
 for raqam in raqamlar:
-    print(f"{raqam}  tortinchi darajasi {raqam **4} ga teng")
-    
+    natija.append(f"{raqam} tortinchi darajasi {raqam ** 4} ga teng")
 
-natija = [f"{raqam} tortinchi darajasi {raqam ** 4} ga teng" for raqam in raqamlar]
-
-print("\nRo‘yxat ko‘rinishida:")
 print(natija)
-
-    
 
 
 
