@@ -85,6 +85,34 @@ print(o_familyalar)
 
 
 
+# Ro'yxatni nusxa olish
+mevalar = ["olma", "anor", "banan", "shaftoli"]
+yangi_mevalar = mevalar[:]  # ro'yxatni to'liq nusxa olish
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+yangi_mevalar.append("uzum")
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+mevalar = ["olma", "anor", "banan", "shaftoli"]
+yangi_mevalar = mevalar.copy()  # ro'yxatni nusxa olishning yana bir usuli
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+yangi_mevalar.append("anor")
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+mevalar = ["olma", "anor", "banan", "shaftoli"]
+yangi_mevalar = list(mevalar)  # ro'yxatni nusxa olishning yana bir usuli
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+yangi_mevalar.append("tarvuz")
+print("mevalar ro'yxati:", mevalar)
+print("yangi_mevalar ro'yxati:", yangi_mevalar)
+mevalar = ["olma", "anor", "banan", "shaftoli"]
+yangi_mevalar = []  # bo'sh ro'yxat yaratish
+
+
+
+
 
 
 
