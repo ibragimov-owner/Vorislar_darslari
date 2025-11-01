@@ -1,8 +1,12 @@
-"""Mini Markov chatbot — kichik trening faylidan hazil javoblar chiqaradi
+"""
+25.10.2025
+
+Mini Markov chatbot — kichik trening faylidan hazil javoblar chiqaradi
 
 markov_chat.py
 
-Kod quyidagicha:"""
+Kod quyidagicha:
+"""
 import random
 from collections import defaultdict
 
