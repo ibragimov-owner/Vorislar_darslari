@@ -23,7 +23,11 @@ javoblar = {
     "qandaysan": ["Zo‘rman, sizchi?", "Yaxshi, rahmat!", "Har doimgidek ajoyib!"],
     "isming": ["Meni SimpleChatBot deb atashadi.", "Ismim Simple chat Bot."],
     "nima qilayapsan": ["Siz bilan suhbatlashyapman.", "Kod yozayapman 😊"],
-    "xayr": ["Xayr!", "Ko‘rishguncha!", "Salomat bo‘ling!"]
+    "xayr": ["Xayr!", "Ko‘rishguncha!", "Salomat bo‘ling!"],
+    "havo": ["Bugun quyoshli!", "Havo biroz bulutli.", "Issiq, taxminan 30 daraja!"],
+    "yordam": ["Qanday yordam bera olaman?", "Nima haqida bilmoqchisiz?"],
+    "rahmat": ["Sizga ham rahmat!", "Har doim yordam berishga tayyorman!"],
+    "qiziqarli": ["Ha, juda qiziqarli!", "Siz bilan suhbatlashish yoqimli!"]
 }
 
 print("ChatBot: Salom! Suhbatni boshlaymiz (chiqish uchun 'exit yoki chiq ' yozing).")
