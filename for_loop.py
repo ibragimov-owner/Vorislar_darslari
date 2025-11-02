@@ -55,13 +55,23 @@ for loop yordamida ro'yxatlar, lug'atlar va boshqa ma'lumot tuzilmalaridagi elem
 # print(natija)
 
     
-raqamlar = list(range(27, 54, 7))
-natija = []
+# raqamlar = list(range(27, 54, 7))
+# natija = []
 
-for raqam in raqamlar:
-    natija.append(f"{raqam} tortinchi darajasi {raqam ** 4} ga teng")
+# for raqam in raqamlar:
+#     natija.append(f"{raqam} tortinchi darajasi {raqam ** 4} ga teng")
 
-print(natija)
+# print(natija)
+
+
+# 1-masala: k va n butun sonlar berilgan (n>0) . k sonini n marta chiqaruvchi programma tuzilsin
+k = int(input("k sonini kiriting:"))
+n = int(input("n sonini kiriting: (n>0):"))
+
+for i in range(n):
+    print(k)
+ 
+# 2-masala 
 
 
 
