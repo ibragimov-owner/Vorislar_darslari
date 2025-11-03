@@ -124,7 +124,7 @@ def main():
     clock = pygame.time.Clock()
 
     while run:
-        clock.tick(60)
+        clock.tick(60) 
 
         draw_board(WIN, board)
         pygame.display.update()
