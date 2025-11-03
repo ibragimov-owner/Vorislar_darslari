@@ -145,6 +145,6 @@ def main():
                     selected = None
                 elif piece != 0 and piece.color == turn:
                     selected = piece
-
+   
 main()
 
