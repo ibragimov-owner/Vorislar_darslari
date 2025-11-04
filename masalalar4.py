@@ -63,3 +63,33 @@
 #     kvadrat = son ** 2
 #     print(f"{son} ning kvadrati: {kvadrat}")
 
+
+
+            # masala 7
+# for7: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kubini chiqaruvchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# for son in range(1, n + 1):
+#     kub = son ** 3
+#     print(f"{son} ning kubi: {kub}")
+
+
+
+            # masala 8
+# for8: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning yig'indisini hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0
+# for son in range(1, n + 1):
+#     yigindi += son
+# print(f"1 dan {n} gacha bo'lgan sonlarning yig'indisi: {yigindi}")
+    
+    
+            # masala 9
+# for9: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha juft sonlarning yig'indisini hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0
+# for son in range(2, n + 1, 2):
+#     yigindi += son
+# print(f"1 dan {n} gacha bo'lgan juft sonlarning yig'indisi: {yigindi}")
+
+
+
