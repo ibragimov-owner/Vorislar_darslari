@@ -11,16 +11,16 @@
 
          # masala 2
 # For2. a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlami (a va b ni ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
-a = int(input("a ni kiriting (a < b): "))
-b = int(input("b ni kiriting: "))
+# a = int(input("a ni kiriting (a < b): "))
+# b = int(input("b ni kiriting: "))
 
 
-print("a dan b gacha bo'lgan sonlar:")
+# print("a dan b gacha bo'lgan sonlar:")
+# sonlar = list(range(a, b + 1))
+# for son in sonlar:
+#     print(son)
 
-for son in range(a, b + 1):
-    print(son)
-
-print(len(sonlar))
+# print("chiqarilgan sonlar soni:",len(sonlar))
 
 
 
@@ -46,5 +46,10 @@ print(len(sonlar))
 
 
 
-
-
+        # masala 5
+# for5: Bir kg konfetning narxi berilgan (haqiqiy son). 0.1, 0.2, ... , 1 kg konfetni narxini chiqaruvchi programma tuzilsin.
+# narx = float(input("Bir kg konfetning narxini kiriting: "))
+# for kg in range(1, 11):
+#     kg_kg = kg / 10
+#     summa = kg_kg * narx
+#     print(f"{kg_kg} kg konfetning narxi: {summa} so'm")
