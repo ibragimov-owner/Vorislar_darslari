@@ -53,3 +53,13 @@
 #     kg_kg = kg / 10
 #     summa = kg_kg * narx
 #     print(f"{kg_kg} kg konfetning narxi: {summa} so'm")
+
+
+
+            # masala 6
+# for6: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kvadratlarini chiqaruvchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# for son in range(1, n + 1):
+#     kvadrat = son ** 2
+#     print(f"{son} ning kvadrati: {kvadrat}")
+
