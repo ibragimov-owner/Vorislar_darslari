@@ -1,29 +1,26 @@
          # masala 1
 # for1: k va n butun sonlar berilgan (n>0) . k sonini n marta chiqaruvchi programma tuzilsin
 # print("k sonini n marta chiqaruvchi programma")
-# k = int(input("k sonini kiriting:"))
+# k =  int(input("k sonini kiriting:"))
 # n = int(input("n sonini kiriting: (n>0):"))
 
-# for i in range(n):
-#     print(k)
+# for son in range(1, n+1):
+#    print(f"{son} - sikl:" ,{k})
 
 
 
          # masala 2
 # For2. a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlami (a va b ni ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
-# a = int(input("a ni kiriting (a < b): "))
-# b = int(input("b ni kiriting: "))
+a = int(input("a ni kiriting (a < b): "))
+b = int(input("b ni kiriting: "))
 
 
-# son = 0
+print("a dan b gacha bo'lgan sonlar:")
 
-# print("a dan b gacha bo'lgan sonlar:")
+for son in range(a, b + 1):
+    print(son)
 
-# for i in range(a, b + 1):
-#     print(i)
-#     son += 1
-
-# print("Chiqarilgan sonlar soni:", son)
+print(len(sonlar))
 
 
 
