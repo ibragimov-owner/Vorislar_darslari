@@ -109,3 +109,12 @@
 # print(f"1 dan {n} gacha bo'lgan sonlarning ko'paytmasi: {kopaytma}")
 
 
+#             masala 12
+# for12: n butun son berilgan (n>0). n! ni hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# faktorial = 1
+# for son in range(1, n + 1):
+#     faktorial *= son
+# print(f"{n}! ning qiymati: {faktorial}")
+
+
