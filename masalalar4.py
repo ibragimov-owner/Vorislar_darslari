@@ -118,3 +118,12 @@
 # print(f"{n}! ning qiymati: {faktorial}")
 
 
+#             masala 13
+# for13: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning kvadratlar yig'indisini hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0
+# for son in range(1, n + 1):
+#     yigindi += son ** 2
+# print(f"1 dan {n} gacha bo'lgan sonlarning kvadratlar yig'indisi: {yigindi}")
+
+
