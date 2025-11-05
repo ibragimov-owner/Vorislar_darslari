@@ -1,4 +1,4 @@
-         # masala 1
+#          masala 1
 # for1: k va n butun sonlar berilgan (n>0) . k sonini n marta chiqaruvchi programma tuzilsin
 # print("k sonini n marta chiqaruvchi programma")
 # k =  int(input("k sonini kiriting:"))
@@ -9,7 +9,7 @@
 
 
 
-         # masala 2
+#          masala 2
 # For2. a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlami (a va b ni ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
 # a = int(input("a ni kiriting (a < b): "))
 # b = int(input("b ni kiriting: "))
@@ -24,7 +24,7 @@
 
 
 
-         # masala 3
+#          masala 3
 # For3. a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlarni (a va b dan tashqari) kamayish tartibida chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi progma tuzilsin.
 # a = int(input("a sonini kiriting (a<b): "))
 # b = int(input("b sonini kiriting (a<b): "))
@@ -36,7 +36,7 @@
 
 
 
-      # masala 4
+#       masala 4
 # for4: Bir kg konfetning narxi berilgan (haqiqiy son). 1, 2, ... , 10 kg konfetni narxini chiqaruvchi programma tuzilsin.
 # narx = float(input("Bir kg konfetning narxini kiriting: "))
 
@@ -46,7 +46,7 @@
 
 
 
-        # masala 5
+#         masala 5
 # for5: Bir kg konfetning narxi berilgan (haqiqiy son). 0.1, 0.2, ... , 1 kg konfetni narxini chiqaruvchi programma tuzilsin.
 # narx = float(input("Bir kg konfetning narxini kiriting: "))
 # for kg in range(1, 11):
@@ -56,7 +56,7 @@
 
 
 
-            # masala 6
+#             masala 6
 # for6: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kvadratlarini chiqaruvchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
 # for son in range(1, n + 1):
@@ -65,7 +65,7 @@
 
 
 
-            # masala 7
+#             masala 7
 # for7: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kubini chiqaruvchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
 # for son in range(1, n + 1):
@@ -74,7 +74,7 @@
 
 
 
-            # masala 8
+#             masala 8
 # for8: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning yig'indisini hisoblovchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
 # yigindi = 0
@@ -83,7 +83,7 @@
 # print(f"1 dan {n} gacha bo'lgan sonlarning yig'indisi: {yigindi}")
     
     
-            # masala 9
+#             masala 9
 # for9: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha juft sonlarning yig'indisini hisoblovchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
 # yigindi = 0
@@ -91,5 +91,12 @@
 #     yigindi += son
 # print(f"1 dan {n} gacha bo'lgan juft sonlarning yig'indisi: {yigindi}")
 
+#             masala 10
+# for10: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha toq sonlarning yig'indisini hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0
+# for son in range(1, n + 1, 2):
+#     yigindi += son
+# print(f"1 dan {n} gacha bo'lgan toq sonlarning yig'indisi: {yigindi}")
 
 
