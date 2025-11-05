@@ -100,3 +100,12 @@
 # print(f"1 dan {n} gacha bo'lgan toq sonlarning yig'indisi: {yigindi}")
 
 
+#             masala 11
+# for11: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning ko'paytmasini hisoblovchi programma tuzilsin.
+# n = int(input("n sonini kiriting (n>0): "))
+# kopaytma = 1
+# for son in range(1, n + 1):
+#     kopaytma *= son
+# print(f"1 dan {n} gacha bo'lgan sonlarning ko'paytmasi: {kopaytma}")
+
+
