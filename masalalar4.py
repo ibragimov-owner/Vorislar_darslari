@@ -23,7 +23,6 @@ S =n2+(n+1)2+(n+2)2 + ... (2*n)2
 For12. n butun soni berilgan (n >0). Quyidagi ko'paytmani hisoblovchi programma tuzilsin.
 S=1.1*1.2*1.3 *...
 (n ta ko'payuvchi)
-
 For13. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
 S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 """
