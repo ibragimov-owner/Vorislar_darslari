@@ -1,3 +1,35 @@
+"""
+04.11.2025
+for sikl operatoriga oid masalalar:
+For1. k va n butun sonlari berilgan (n > 0). k sonini n marta chiqaruvchi programma tuzilsin.
+For2. a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlami (a va b ni
+ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
+For3. a va b butun sonlari berilgan (a <b). a va b sonlari orasidagi barcha butun sonlarni (a va b dan
+tashqari) kamayish tartibida chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi progma tuzilsin.
+For4. Bir kg konfetning narxi berilgan (haqiqiy son). 1, 2, ... , 10 kg konfetni narxini chiqaruvchi
+programma tuzilsin.
+For5. Bir kg konfetning narxi berilgan (haqiqiy son). 0.1, 0.2, ... , 0.9, 1 kg konfetni narxini chiqaruvchi
+programma tuzilsin.
+For6. Bir kg konfetning narxi berilgan (haqiqiy son). 1.2, 1.4, ... , 2 kg konfetni narxini chiqaruvchi
+programma tuzilsin.
+For7. a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar yig'indisini
+chiqaruvchi programma tuzilsin.
+For8. a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar ko'paytmasini
+chiqaruvchi programma tuzilsin.
+For9. a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar kvadratlarining
+yig'indisini chiqaruvchi programma tuzilsin.
+
+For11. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
+S =n2+(n+1)2+(n+2)2 + ... (2*n)2
+For12. n butun soni berilgan (n >0). Quyidagi ko'paytmani hisoblovchi programma tuzilsin.
+S=1.1*1.2*1.3 *...
+
+(n ta ko'payuvchi)
+For13. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
+S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
+"""
+
+
 #          masala 1
 # for1: k va n butun sonlar berilgan (n>0) . k sonini n marta chiqaruvchi programma tuzilsin
 # print("k sonini n marta chiqaruvchi programma")
@@ -48,7 +80,7 @@
 
 #         masala 5
 # for5: Bir kg konfetning narxi berilgan (haqiqiy son). 0.1, 0.2, ... , 1 kg konfetni narxini chiqaruvchi programma tuzilsin.
-# narx = float(input("Bir kg konfetning narxini kiriting: "))
+# narx = float(input("1 kg konfetning narxini kiriting: "))
 # for kg in range(1, 11):
 #     kg_kg = kg / 10
 #     summa = kg_kg * narx
@@ -56,71 +88,41 @@
 
 
 
-#             masala 6
-# for6: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kvadratlarini chiqaruvchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# for son in range(1, n + 1):
-#     kvadrat = son ** 2
-#     print(f"{son} ning kvadrati: {kvadrat}")
+#         masala 6
+# for6: Bir kg konfetning narxi berilgan (haqiqiy son). 1.2, 1.4, ... , 2 kg konfetni narxini chiqaruvchi programma tuzilsin.
+# narx = float(input("1 kg konfetning narxini kiriting: "))
+# for kg in range(12, 21, 2):
+#     kg_kg = kg / 10
+#     summa = kg_kg * narx
+#     print(f"{kg_kg} kg konfetning narxi: {summa} so'm")   
 
 
-
-#             masala 7
-# for7: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning kubini chiqaruvchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# for son in range(1, n + 1):
-#     kub = son ** 3
-#     print(f"{son} ning kubi: {kub}")
-
-
-
-#             masala 8
-# for8: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha butun sonlarning yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(1, n + 1):
+#         masala 7
+# for7: a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar yig'indisini chiqaruvchi programma tuzilsin.
+# a = int(input("a sonini kiriting (a<b): "))
+# b = int(input("b sonini kiriting (a<b): "))
+# yigindi = 0  
+# for son in range(a, b + 1):
 #     yigindi += son
-# print(f"1 dan {n} gacha bo'lgan sonlarning yig'indisi: {yigindi}")
-    
-
-    
-#             masala 9
-# for9: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha juft sonlarning yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(2, n + 1, 2):
-#     yigindi += son
-# print(f"1 dan {n} gacha bo'lgan juft sonlarning yig'indisi: {yigindi}")
+# print(f"{a} dan {b} gacha bo'lgan sonlar yig'indisi: {yigindi}")
 
 
-
-#             masala 10
-# for10: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha toq sonlarning yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(1, n + 1, 2):
-#     yigindi += son
-# print(f"1 dan {n} gacha bo'lgan toq sonlarning yig'indisi: {yigindi}")
-
-
-
-#             masala 11
-# for11: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning ko'paytmasini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
+#         masala 8
+# for8: a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar ko'paytmasini chiqaruvchi programma tuzilsin.
+# a = int(input("a sonini kiriting (a<b): "))
+# b = int(input("b sonini kiriting (a<b): "))
 # kopaytma = 1
-# for son in range(1, n + 1):
+# for son in range(a, b + 1):
 #     kopaytma *= son
-# print(f"1 dan {n} gacha bo'lgan sonlarning ko'paytmasi: {kopaytma}")
+# print(f"{a} dan {b} gacha bo'lgan sonlar ko'paytmasi: {kopaytma}")
 
 
-
-#             masala 12
-# for12: n butun son berilgan (n>0). n! ni hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# faktorial = 1
-# for son in range(1, n + 1):
-#     faktorial *= son
-# print(f"{n}! ning qiymati: {faktorial}")
-
-
+#         masala 9
+# for9: a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar kvadratlarining yig'indisini chiqaruvchi programma tuzilsin.
+# a = int(input("a sonini kiriting (a<b): "))
+# b = int(input("b sonini kiriting (a<b): "))
+# yigindi = 0
+# for son in range(a, b + 1):
+#     yigindi += son ** 2
+# print(f"{a} dan {b} gacha bo'lgan sonlar kvadratlarining yig'indisi: {yigindi}")
 
