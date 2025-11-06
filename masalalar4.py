@@ -97,6 +97,7 @@ S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 #     print(f"{kg_kg} kg konfetning narxi: {summa} so'm")   
 
 
+
 #         masala 7
 # for7: a va b butun sonlari berilgan (a < b). a dan b gacha bo'lgan barcha butun sonlar yig'indisini chiqaruvchi programma tuzilsin.
 # a = int(input("a sonini kiriting (a<b): "))
