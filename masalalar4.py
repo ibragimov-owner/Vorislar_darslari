@@ -91,6 +91,8 @@
 #     yigindi += son
 # print(f"1 dan {n} gacha bo'lgan juft sonlarning yig'indisi: {yigindi}")
 
+
+
 #             masala 10
 # for10: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha toq sonlarning yig'indisini hisoblovchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
