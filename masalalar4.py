@@ -82,6 +82,7 @@
 #     yigindi += son
 # print(f"1 dan {n} gacha bo'lgan sonlarning yig'indisi: {yigindi}")
     
+
     
 #             masala 9
 # for9: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha juft sonlarning yig'indisini hisoblovchi programma tuzilsin.
