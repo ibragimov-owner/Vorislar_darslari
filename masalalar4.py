@@ -18,7 +18,6 @@ For8. a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun s
 chiqaruvchi programma tuzilsin.
 For9. a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar kvadratlarining
 yig'indisini chiqaruvchi programma tuzilsin.
-
 For11. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
 S =n2+(n+1)2+(n+2)2 + ... (2*n)2
 For12. n butun soni berilgan (n >0). Quyidagi ko'paytmani hisoblovchi programma tuzilsin.
