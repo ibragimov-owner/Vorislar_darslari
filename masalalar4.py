@@ -100,6 +100,7 @@
 # print(f"1 dan {n} gacha bo'lgan toq sonlarning yig'indisi: {yigindi}")
 
 
+
 #             masala 11
 # for11: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning ko'paytmasini hisoblovchi programma tuzilsin.
 # n = int(input("n sonini kiriting (n>0): "))
@@ -107,6 +108,7 @@
 # for son in range(1, n + 1):
 #     kopaytma *= son
 # print(f"1 dan {n} gacha bo'lgan sonlarning ko'paytmasi: {kopaytma}")
+
 
 
 #             masala 12
@@ -118,37 +120,4 @@
 # print(f"{n}! ning qiymati: {faktorial}")
 
 
-#             masala 13
-# for13: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning kvadratlar yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(1, n + 1):
-#     yigindi += son ** 2
-# print(f"1 dan {n} gacha bo'lgan sonlarning kvadratlar yig'indisi: {yigindi}")
 
-
-#             masala 14
-# for14: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha sonlarning kubar yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(1, n + 1):
-#     yigindi += son ** 3
-# print(f"1 dan {n} gacha bo'lgan sonlarning kubar yig'indisi: {yigindi}")
-
-
-#             masala 15
-# for15: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha juft sonlarning kvadratlar yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(2, n + 1, 2):
-#     yigindi += son ** 2
-# print(f"1 dan {n} gacha bo'lgan juft sonlarning kvadratlar yig'indisi: {yigindi}")
-
-
-#             masala 16
-# for16: n butun son berilgan (n>0). 1 dan n gacha bo'lgan barcha toq sonlarning kubar yig'indisini hisoblovchi programma tuzilsin.
-# n = int(input("n sonini kiriting (n>0): "))
-# yigindi = 0
-# for son in range(1, n + 1, 2):
-#     yigindi += son ** 3
-# print(f"1 dan {n} gacha bo'lgan toq sonlarning kubar yig'indisi: {yigindi}")
