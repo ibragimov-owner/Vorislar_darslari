@@ -107,6 +107,7 @@ S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 # print(f"{a} dan {b} gacha bo'lgan sonlar yig'indisi: {yigindi}")
 
 
+
 #         masala 8
 # for8: a va b butun sonlari berilgan (a <b). a dan b gacha bo'lgan barcha butun sonlar ko'paytmasini chiqaruvchi programma tuzilsin.
 # a = int(input("a sonini kiriting (a<b): "))
