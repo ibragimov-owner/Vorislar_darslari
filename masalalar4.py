@@ -137,9 +137,13 @@ S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 # print(f"Yig'indi: {yigindi}")
 
 
-
-
-
-
-
+#         masala 11
+# for11: n butun soni berilgan (n >0). Quyidagi ko'paytmani hisoblovchi programma tuzilsin.
+# S=1.1*1.2*1.3 *...
+# (n ta ko'payuvchi)
+# n = int(input("n sonini kiriting (n>0): "))
+# kopaytma = 1.0
+# for son in range(1, n + 1):
+#     kopaytma *= 1 + son / 10
+# print(f"Ko'paytma: {kopaytma}")
 
