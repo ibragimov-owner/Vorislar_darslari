@@ -27,7 +27,6 @@ For13. n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma 
 S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 """
 
-
 #          masala 1
 # for1: k va n butun sonlar berilgan (n>0) . k sonini n marta chiqaruvchi programma tuzilsin
 # print("k sonini n marta chiqaruvchi programma")
