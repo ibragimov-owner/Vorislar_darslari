@@ -127,6 +127,17 @@ S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 #     yigindi += son ** 2
 # print(f"{a} dan {b} gacha bo'lgan sonlar kvadratlarining yig'indisi: {yigindi}")
 
+#         masala 10
+# for10: n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
+# S =n2+(n+1)2+(n+2)2 + ... (2*n)2
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0
+# for son in range(n, 2 * n + 1):
+#     yigindi += son ** 2
+# print(f"Yig'indi: {yigindi}")
+
+
+
 
 
 
