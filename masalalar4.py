@@ -151,14 +151,16 @@ S =1.1-1.2+1.3 -...+(-1)n+1 *1.n
 #         masala 12
 # for12: n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
 # S =1.1-1.2+1.3 -...+(-1)n+1 *1.n  
-n = int(input("n sonini kiriting (n>0): "))
-yigindi = 0.0
-for son in range(1, n + 1):
-    if son % 2 == 1:
-        yigindi += 1 + son / 10
-    else:
-        yigindi -= 1 + son / 10
-print(f"Yig'indi: {yigindi}")
+# n = int(input("n sonini kiriting (n>0): "))
+# yigindi = 0.0
+# for son in range(1, n + 1):
+#     if son % 2 == 1:
+#         yigindi += 1 + son / 10
+#     else:
+#         yigindi -= 1 + son / 10
+# print(f"Yig'indi: {yigindi}")
+
+
 
 
 
