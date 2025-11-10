@@ -72,3 +72,4 @@ print("Kela olgan mehmonlar:", mehmonlar)
 print("Kelolmaganlar:", friends)
 print("Ro‘yxatlar bo‘shatildi.")
 
+
