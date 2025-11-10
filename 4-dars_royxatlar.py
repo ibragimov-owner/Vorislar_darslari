@@ -44,6 +44,8 @@ print(mevalar[-4].title())
 print(mevalar[-5].upper())
 
 
+
+
 # append(), insert(), remove() bilan ro‘yxatni boshqarish
 
 it_oquvchilar = []
