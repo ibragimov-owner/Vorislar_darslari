@@ -42,6 +42,9 @@ l = a   # darajaga ko'tarish
 print('m =', m)
 print('l =', l)
 
+
+
+
 #bo'lish
 
 g = 5 
