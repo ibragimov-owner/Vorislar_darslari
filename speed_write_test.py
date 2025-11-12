@@ -23,7 +23,7 @@ if typed.strip() == text:
     print(f"Good! Vaqt: {end-start:.2f}s | WPM: {wpm:.1f}")
 else:
     print("Matn to‘liq mos kelmadi. Qayta urin.")
-
+ 
 
 
 
