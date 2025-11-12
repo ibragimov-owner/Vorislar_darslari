@@ -1,4 +1,4 @@
-"""
+ """
 25.10.2025
  
 Tezlik (typing) test — nechchi so‘z/min?
